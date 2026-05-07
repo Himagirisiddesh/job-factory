@@ -1,0 +1,118 @@
+SyntaxError: Expected property name or '}' in JSON at position 1 (line 1 column 2)
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\Jayalakshmi\Desktop\SHOP\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\Jayalakshmi\Desktop\SHOP\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)
+    at invokeCallback (C:\Users\Jayalakshmi\Desktop\SHOP\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\Jayalakshmi\Desktop\SHOP\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\Jayalakshmi\Desktop\SHOP\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+node:events:496
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+    at listenInCluster (node:net:1994:12)
+    at Server.listen (node:net:2099:7)
+    at Function.listen (C:\Users\Jayalakshmi\Desktop\SHOP\node_modules\express\lib\application.js:635:24)
+    at main (C:\Users\Jayalakshmi\Desktop\SHOP\src\server\index.ts:289:7)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1973:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+
+Node.js v22.14.0
+node:events:496
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+    at listenInCluster (node:net:1994:12)
+    at Server.listen (node:net:2099:7)
+    at Function.listen (C:\Users\Jayalakshmi\Desktop\SHOP\node_modules\express\lib\application.js:635:24)
+    at main (C:\Users\Jayalakshmi\Desktop\SHOP\src\server\index.ts:309:7)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1973:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+
+Node.js v22.14.0
+node:events:496
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+    at listenInCluster (node:net:1994:12)
+    at Server.listen (node:net:2099:7)
+    at Function.listen (C:\Users\Jayalakshmi\Desktop\SHOP\node_modules\express\lib\application.js:635:24)
+    at main (C:\Users\Jayalakshmi\Desktop\SHOP\src\server\index.ts:383:7)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1973:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+
+Node.js v22.14.0
+Failed to start order API: ReferenceError: express is not defined
+    at main (C:\Users\Jayalakshmi\Desktop\SHOP\src\server\index.ts:44:15)
+node:events:496
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+    at listenInCluster (node:net:1994:12)
+    at Server.listen (node:net:2099:7)
+    at Function.listen (C:\Users\Jayalakshmi\Desktop\SHOP\node_modules\express\lib\application.js:635:24)
+    at main (C:\Users\Jayalakshmi\Desktop\SHOP\src\server\index.ts:216:7)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1973:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+
+Node.js v22.14.0
+node:events:496
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+    at listenInCluster (node:net:1994:12)
+    at Server.listen (node:net:2099:7)
+    at Function.listen (C:\Users\Jayalakshmi\Desktop\SHOP\node_modules\express\lib\application.js:635:24)
+    at main (C:\Users\Jayalakshmi\Desktop\SHOP\src\server\index.ts:216:7)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1973:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+
+Node.js v22.14.0
