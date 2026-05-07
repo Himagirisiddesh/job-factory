@@ -1,0 +1,130 @@
+{
+  "version": 4,
+  "nextOrderId": 4,
+  "nextDraftId": 7,
+  "inventory": [
+    {
+      "id": "CAT-001",
+      "productName": "Titanium Brackets",
+      "material": "Titanium",
+      "availableQuantity": 200,
+      "qualityGrade": "Industrial Grade",
+      "aliases": [
+        "titanium bracket",
+        "titanium brackets",
+        "bracket",
+        "brackets"
+      ]
+    },
+    {
+      "id": "CAT-002",
+      "productName": "Steel Bearings",
+      "material": "Stainless Steel",
+      "availableQuantity": 1000,
+      "qualityGrade": "Precision Grade",
+      "aliases": [
+        "steel bearing",
+        "steel bearings",
+        "bearing",
+        "bearings"
+      ]
+    },
+    {
+      "id": "CAT-003",
+      "productName": "Aluminum Rods",
+      "material": "Aluminum",
+      "availableQuantity": 700,
+      "qualityGrade": "Aerospace Grade",
+      "aliases": [
+        "aluminum rod",
+        "aluminum rods",
+        "aluminium rod",
+        "aluminium rods",
+        "rod",
+        "rods"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": 3,
+      "orderId": "ORD-003",
+      "customerId": "customer-1",
+      "productName": "Steel Bearings",
+      "material": "Stainless Steel",
+      "qualityGrade": "Precision Grade",
+      "quantity": 200,
+      "deadline": "2026-08-04",
+      "status": "Order Confirmed",
+      "createdAt": "2026-05-07T07:47:30.192Z"
+    },
+    {
+      "id": 2,
+      "orderId": "ORD-002",
+      "customerId": "customer-1",
+      "productName": "Titanium Brackets",
+      "material": "Titanium",
+      "qualityGrade": "Industrial Grade",
+      "quantity": 300,
+      "deadline": "2026-07-12",
+      "status": "Order Confirmed",
+      "createdAt": "2026-05-07T07:43:41.086Z"
+    },
+    {
+      "id": 1,
+      "orderId": "ORD-001",
+      "customerId": "customer-1",
+      "productName": "Aluminum Rods",
+      "material": "Aluminum",
+      "qualityGrade": "Aerospace Grade",
+      "quantity": 100,
+      "deadline": "2026-06-25",
+      "status": "Order Confirmed",
+      "createdAt": "2026-05-07T07:38:18.762Z"
+    }
+  ],
+  "pendingRequests": [
+    {
+      "id": 2,
+      "requestId": "REQ-002",
+      "customerId": "customer-1",
+      "productId": "CAT-002",
+      "productName": "Steel Bearings",
+      "material": "Stainless Steel",
+      "qualityGrade": "Precision Grade",
+      "quantity": 200,
+      "deadline": "2026-08-04",
+      "verificationCode": "KQR8KB",
+      "createdAt": "2026-05-07T07:39:35.531Z",
+      "expiresAt": "2026-05-07T07:49:35.531Z"
+    },
+    {
+      "id": 3,
+      "requestId": "REQ-003",
+      "customerId": "customer-1",
+      "productId": "CAT-001",
+      "productName": "Titanium Brackets",
+      "material": "Titanium",
+      "qualityGrade": "Industrial Grade",
+      "quantity": 300,
+      "deadline": "2026-07-12",
+      "verificationCode": "SLSH6L",
+      "createdAt": "2026-05-07T07:40:08.413Z",
+      "expiresAt": "2026-05-07T07:50:08.413Z"
+    },
+    {
+      "id": 4,
+      "requestId": "REQ-004",
+      "customerId": "customer-1",
+      "productId": "CAT-002",
+      "productName": "Steel Bearings",
+      "material": "Stainless Steel",
+      "qualityGrade": "Precision Grade",
+      "quantity": 200,
+      "deadline": "2026-08-04",
+      "verificationCode": "8UMDDV",
+      "createdAt": "2026-05-07T07:42:52.822Z",
+      "expiresAt": "2026-05-07T07:52:52.823Z"
+    }
+  ]
+}
